@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ReparationServiceController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String welcome() {
-		return "Welcome to Reparation Service";
+		return "Welcome to Reparation Service TEST";
 	}
 }
